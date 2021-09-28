@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.card {
+  display: flex;
+  width: 200px;
+  height: 250px;
+  box-shadow: 1px 1px 4px 0.1px;
+  border-radius: 10px;
+  margin: 1em;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+}
+
+.heading {
+  text-align: center;
+  color: #8A8A8A;
+}
+
+.bold {
+  color: #345B63;
+}
+
+.card p:last-child {
+  color: #FF0000;
+}
+
+#rating {
+  color: #3DB2FF;
+}
